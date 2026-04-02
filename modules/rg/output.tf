@@ -1,4 +1,4 @@
-output "rg_names_output" {
+output "rg_names_output_mod" {
 
   value = {
 
