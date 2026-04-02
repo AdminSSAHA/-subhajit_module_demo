@@ -3,6 +3,6 @@ resource "azurerm_resource_group" "rg" {
   name     = each.value
   location = var.rg_location
   tags = {
-    environment = each.key
+    environment = "eastus"
   }
 }
